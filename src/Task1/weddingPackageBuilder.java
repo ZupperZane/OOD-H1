@@ -10,5 +10,6 @@ public class weddingPackageBuilder {
         temp.catering=cater;
         temp.decorations=deco;
         temp.photography=photo;
+
     }
 }
