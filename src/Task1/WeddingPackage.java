@@ -5,4 +5,7 @@ public abstract class WeddingPackage {
     String catering;
     String decorations;
     String photography;
+    public String getType() {
+        return "Generic Wedding Package";
+    }
 }
