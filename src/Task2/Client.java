@@ -17,5 +17,20 @@ public class Client {
         ManufacterB.makeSD();
         ManufacterB.makeDD();
         ManufacterB.makeAD();
+        // Additional Manufacter C & drone type
+        DroneFactoryC ManufacterC = new DroneFactoryC();
+        RDfactory RescueFactory = new RDfactory();
+        // Test cases for each
+        ManufacterC.makeRD();
+        ManufacterC.makeSD();
+        ManufacterC.makeDD();
+        ManufacterC.makeAD();
+        // base cases
+        ManufacterA.makeRD();
+
+
+        ManufacterB.makeRD();
+
+
     }
 }

@@ -25,4 +25,10 @@ public class DroneFactoryB extends AbstractFactory{
         temp.SpecialFeatures="Low Quality Frame";
 
     }
+    public void makeRD(){
+        Drone temp = RDfactory.createRescueDrone();
+        temp.BatteryCap = 5000;
+        temp.FlightRange= 40;
+        temp.SpecialFeatures="Poor Quality Frame";
+    }
 }

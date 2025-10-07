@@ -1,37 +1,35 @@
 package Task2;
 
-public class DroneFactoryA extends AbstractFactory{
+public class DroneFactoryC {
+
 
     public void makeSD(){
         Drone temp = SDfactory.createSurveyDrone();
-        temp.BatteryCap = 4000;
-        temp.FlightRange= 50;
-        temp.SpecialFeatures="High Quality Camera";
+        temp.BatteryCap = 5500;
+        temp.FlightRange= 34;
+        temp.SpecialFeatures="Poor Quality Camera";
         System.out.println("New Survey Drone Made:");
         temp.desc();
     }
-
     public void makeDD(){
         Drone temp = DDfactory.createDeliveryDrone();
-        temp.BatteryCap = 4000;
-        temp.FlightRange= 50;
-        temp.SpecialFeatures="Low Payload Capacity";
+        temp.BatteryCap = 5500;
+        temp.FlightRange= 34;
+        temp.SpecialFeatures="Good Payload Capacity";
         System.out.println("New Delivery Drone Made:");
         temp.desc();
     }
     public void makeAD(){
         Drone temp = ADfactory.createAgriDrone();
-        temp.BatteryCap = 4000;
-        temp.FlightRange= 50;
+        temp.BatteryCap = 5500;
+        temp.FlightRange= 34;
         temp.SpecialFeatures="High Quality Frame";
-        System.out.println("New Agri Drone Made:");
-        temp.desc();
+
     }
     public void makeRD(){
         Drone temp = RDfactory.createRescueDrone();
-        temp.BatteryCap = 4000;
-        temp.FlightRange= 50;
-        temp.SpecialFeatures="Good Quality Frame";
+        temp.BatteryCap = 5500;
+        temp.FlightRange= 34;
+        temp.SpecialFeatures="fast Quality Frame";
     }
-
 }
