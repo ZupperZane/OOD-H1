@@ -7,6 +7,8 @@ public class DroneFactoryA extends AbstractFactory{
         temp.BatteryCap = 4000;
         temp.FlightRange= 50;
         temp.SpecialFeatures="High Quality Camera";
+        System.out.println("New Survey Drone Made:");
+        temp.desc();
     }
 
     public void makeDD(){
@@ -14,12 +16,16 @@ public class DroneFactoryA extends AbstractFactory{
         temp.BatteryCap = 4000;
         temp.FlightRange= 50;
         temp.SpecialFeatures="Low Payload Capacity";
+        System.out.println("New Delivery Drone Made:");
+        temp.desc();
     }
     public void makeAD(){
         Drone temp = ADfactory.createAgriDrone();
         temp.BatteryCap = 4000;
         temp.FlightRange= 50;
         temp.SpecialFeatures="High Quality Frame";
+        System.out.println("New Agri Drone Made:");
+        temp.desc();
     }
 
 }
