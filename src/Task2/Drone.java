@@ -10,6 +10,7 @@ public abstract class Drone {
         System.out.println("Battery Capacity in mAh: " + this.BatteryCap);
         System.out.println("Flight Range in km: " + this.FlightRange);
         System.out.println("Special Feature: " + this.SpecialFeatures);
+        System.out.print(" ");
     }
 
 }

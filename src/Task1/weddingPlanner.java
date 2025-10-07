@@ -1,12 +1,13 @@
 package Task1;
 
 public class weddingPlanner {
+
     //Singleton
     private static weddingPlanner instance =null;
 
     private String testcase;
     // Initailization
-    private void WeddingPlanner(){
+    private weddingPlanner(){
     }
     //Singleton Instance Check
     public static weddingPlanner getInstance() {
