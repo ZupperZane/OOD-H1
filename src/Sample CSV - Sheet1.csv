@@ -1,0 +1,5 @@
+ProductName,Processor,RAM,Storage,Ingerated,Operating Systems,Price,model 
+Laptop Model ,Intel i5,8,256,,Windows 10,800,a
+Laptop Model ,Intel i7,16,512,NVIDIA GTX,Windows 10,1500,b
+Smartphone Model ,Qualcomm Snapdragon,6,128,N/A,Android,999.09,x
+Smartphone Model ,Apple A14 Bionic,4,64,N/A,iOS,1099,y
