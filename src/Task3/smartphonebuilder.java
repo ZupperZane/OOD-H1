@@ -2,9 +2,11 @@ package Task3;
 
 public class smartphonebuilder {
     product temp = new smartphone();
+    // finish
     public product Build(){
         return temp;
     }
+    //setters used in builder
     public void setProcessorType(String processor){
         ((smartphone)temp).setProcessorType(processor);
     }

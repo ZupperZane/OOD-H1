@@ -8,7 +8,7 @@ public class smartphone implements product{
     int CameraResolution;
     String ProcessorType;
 
-        //setter Methods
+        //setter Methods the auto complete helped with these
     public void setProcessorType(String processorType) {
         ProcessorType = processorType;
     }
@@ -37,5 +37,6 @@ public class smartphone implements product{
         System.out.println("Batter Size(in Hours) : "+batterySize);
         System.out.println("Storage Size(in GB) : "+storageSize);
         System.out.println("Camera Resolution : "+CameraResolution);
+        System.out.println("Price is USD: $"+Price);
     }
 }

@@ -1,7 +1,7 @@
 package Task2;
 
 public class DroneFactoryA extends AbstractFactory{
-
+    //series of methods refrencing other factory for individual Drone types, specific to the manufacter settings
     public void makeSD(){
         Drone temp = SDfactory.createSurveyDrone();
         temp.BatteryCap = 4000;

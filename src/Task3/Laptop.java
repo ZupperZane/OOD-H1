@@ -7,7 +7,7 @@ public class Laptop implements product{
     String OperatingSystem ;
     int RAMsize;
     int StorageSize;
-    //setters
+    //setters the auto complete helped with these
     public void setGraphicsCard(String graphicsCard) {
         GraphicsCard = graphicsCard;
     }
@@ -37,5 +37,6 @@ public class Laptop implements product{
         System.out.println("Operating System : "+OperatingSystem);
         System.out.println("Ram Size(in GB) : "+RAMsize);
         System.out.println("Storage Size(in GB) : "+StorageSize);
+        System.out.println("Price is USD: $"+Price);
     }
 }

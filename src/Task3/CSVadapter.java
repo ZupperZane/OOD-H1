@@ -4,18 +4,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CSVadapter {
-
+    // intilize variable
     List<List<String>> CsvHalf2;
-
+    //used to set CsvHalf from the original retirival/ convert to array
     public void importCsvhalf(CSVretrival temp){
         CsvHalf2 = temp.CsvHalf;
     }
 //https://stackoverflow.com/questions/5585779/how-do-i-convert-a-string-to-an-int-in-java helped because when you convert from csv into string you need to convert the item but regular casting caused issues
     public void convert(){
+        // for loop skiping labels
         for(int i=1; i <CsvHalf2.size();i++){
             List<String> curRow = CsvHalf2.get(i);
             String first = curRow.get(0);
-
+        // check for model of smartphone or laptop and corresponding builder, i don't understand why the adapter should return anything but the end of the Builder print
             if (first.equals("Laptop Model ")){
                 laptopBuilder builder1 = new laptopBuilder();
                 builder1.setProcessor(curRow.get(1));
