@@ -33,9 +33,9 @@ public class smartphone implements product{
     public void printdetails() {
         System.out.println("Smartphone Details: ");
         System.out.println("Processor Type : "+ProcessorType);
-        System.out.println("Screen Size : "+Screensize);
+        System.out.println("Screen Size(pixels) : "+Screensize);
         System.out.println("Batter Size(in Hours) : "+batterySize);
-        System.out.println("Storage Size : "+storageSize);
+        System.out.println("Storage Size(in GB) : "+storageSize);
         System.out.println("Camera Resolution : "+CameraResolution);
     }
 }
