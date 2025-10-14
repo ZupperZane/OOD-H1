@@ -46,11 +46,12 @@ public class CSVadapter {
         System.out.println("Searching For Model "+model);
             for(int i=1; i <CsvHalf2.size();i++){
                 List<String> curRow = CsvHalf2.get(i);
-                String first = curRow.get(0);
-                System.out.println(curRow);
-                if (curRow.get(7) == model){
-                    break;
-        }}
+                String first = curRow.get(7);
+                System.out.println("Checking Against:"+curRow);
+                if (model.equals(first)){
+                System.out.println("Product Found and built:"+curRow.get(0)+model);
+                break;
+            }
     }
-
+        }
 }

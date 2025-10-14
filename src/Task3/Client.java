@@ -34,7 +34,7 @@ public class Client {
         //
 
 // Search fucntion
-        Adapter.Search("x");
+        Adapter.Search("X");
         //Search prints everything up to model x
 
     }
