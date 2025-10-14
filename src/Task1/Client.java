@@ -12,6 +12,10 @@ public class Client {
     //Second Package
         WeddingPackage wedding2 = Factory1.CreatePackage("Destination");
         Builder.weddingPackageBuilder(wedding2,"St.Augestine","Culver's","White Flowers","Professional");
+        // Third
+        System.out.println("This was done in Office");
+        WeddingPackage wedding3 = Factory1.CreatePackage("Traditonal");
+        Builder.weddingPackageBuilder(wedding3,"Church","Local Gormet","Pink and Red Flowers","Family Photographer");
     // Prints and singleton test
         Planner.PlanWedding(wedding1);
         System.out.println();
@@ -19,5 +23,8 @@ public class Client {
         weddingPlanner Planner2 = weddingPlanner.getInstance();
         System.out.println(Planner2);
         System.out.println(Planner);
+        //
+        System.out.println("");
+        Planner.PlanWedding(wedding3);
     }
 }

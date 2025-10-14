@@ -7,21 +7,19 @@ public class smartphonebuilder {
         return temp;
     }
     //setters used in builder
-    public void setProcessorType(String processor){
+    public void setProcessor(String processor){
         ((smartphone)temp).setProcessorType(processor);
     }
-    public void setStorageSize(int size){
-        ((smartphone)temp).setStorageSize(size);
+    public void setGraphicsCard(String Card){
+        ((smartphone)temp).setGraphicsCard(Card);
     }
-    public void setBatterySize(int size){
-        ((smartphone)temp).setBatterySize(size);
+    public void setOperatingSystem(String Sys){
+        ((smartphone)temp).setOperatingSystem(Sys);
     }
-    public void setCameraResolution(int resolution){
-        ((smartphone)temp).setCameraResolution(resolution);
+    public void setRAMsize(int Ram){
+        ((smartphone)temp).setRAMsize(Ram);
     }
-    public void setScreensize(String screensize){
-        ((smartphone)temp).setScreensize(screensize);
-    }
+    public void setStorageSize(int Storage){((smartphone)temp).setStorageSize(Storage);}
     private void reset(){
         temp=null;
     }

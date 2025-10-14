@@ -3,3 +3,4 @@ Laptop Model ,Intel i5,8,256,,Windows 10,800,a,n/a,n/a,n/a
 Laptop Model ,Intel i7,16,512,NVIDIA GTX,Windows 10,1500,b,n/a,n/a,n/a
 Smartphone Model ,Qualcomm Snapdragon,6,128,N/A,Android,999.09,x,750x1334,1080,12
 Smartphone Model ,Apple A14 Bionic,4,64,N/A,iOS,1099,y,1334x750,720,8
+Smartphone Model, A14,16,32,64,N/a,ios,N/a,Ninvida,Q,N/a,N/a

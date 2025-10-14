@@ -2,41 +2,42 @@ package Task3;
 
 public class smartphone implements product{
     //variables
-    String Screensize;
-    int batterySize;
-    int storageSize;
-    int CameraResolution;
     String ProcessorType;
+    String GraphicsCard;
+    String OperatingSystem ;
+    int RAMsize;
+    int StorageSize;
 
         //setter Methods the auto complete helped with these
+    public void setGraphicsCard(String graphicsCard) {
+            GraphicsCard = graphicsCard;
+        }
+
+    public void setOperatingSystem(String operatingSystem) {
+        OperatingSystem = operatingSystem;
+    }
+
     public void setProcessorType(String processorType) {
         ProcessorType = processorType;
     }
 
+    public void setRAMsize(int RAMsize) {
+        this.RAMsize = RAMsize;
+    }
+
     public void setStorageSize(int storageSize) {
-        this.storageSize = storageSize;
+        StorageSize = storageSize;
     }
 
-    public void setBatterySize(int batterySize) {
-        this.batterySize = batterySize;
-    }
-
-    public void setCameraResolution(int cameraResolution) {
-        CameraResolution = cameraResolution;
-    }
-
-    public void setScreensize(String screensize) {
-        Screensize = screensize;
-    }
     //details
     @Override
     public void printdetails() {
-        System.out.println("Smartphone Details: ");
+        System.out.println("Laptop Details: ");
         System.out.println("Processor Type : "+ProcessorType);
-        System.out.println("Screen Size(pixels) : "+Screensize);
-        System.out.println("Batter Size(in Hours) : "+batterySize);
-        System.out.println("Storage Size(in GB) : "+storageSize);
-        System.out.println("Camera Resolution : "+CameraResolution);
+        System.out.println("Graphics Card : "+GraphicsCard);
+        System.out.println("Operating System : "+OperatingSystem);
+        System.out.println("Ram Size(in GB) : "+RAMsize);
+        System.out.println("Storage Size(in GB) : "+StorageSize);
         System.out.println("Price is USD: $"+Price);
     }
 }

@@ -16,11 +16,11 @@ public class Client {
 
         System.out.println("");
         //Smartphone Builder methods Test
-        BuilderS.setBatterySize(10);
-        BuilderS.setCameraResolution(720);
-        BuilderS.setScreensize("750x1344");
-        BuilderS.setProcessorType("Intel");
-        BuilderS.setStorageSize(256);
+        BuilderS.setProcessor("A16");
+        BuilderS.setGraphicsCard("Ninvida 1060");
+        BuilderS.setOperatingSystem("Andriod");
+        BuilderS.setRAMsize(24);
+        BuilderS.setStorageSize(128);
         product y= BuilderS.Build();
         y.printdetails();
         // Adapter& retrival  Intilization
@@ -31,5 +31,11 @@ public class Client {
         // at this point the CSv is in a list and next needs to be printed then copied into the builder
         Adapter.importCsvhalf(Retrival);
         Adapter.convert();
+        //
+
+// Search fucntion
+        Adapter.Search("x");
+        //Search prints everything up to model x
+
     }
 }
